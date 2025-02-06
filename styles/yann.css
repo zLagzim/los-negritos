@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    min-height: 1000vh;
+    min-width: 350px;
+    background-image: url(../media/img/amumu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 200%;
+    background-attachment: scroll;
+    
+}
+
+header {
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 5vw;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+#amigos {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 68.5%;
+}
+
+a{
+    padding: 7px 30px 0px 20px;
+    font-size: 3.5vw;
+    border-top: 1px solid rgb(71, 71, 71);
+    border-left: 1px solid rgb(71, 71, 71);
+    border-right: 1px solid rgb(71, 71, 71);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+a:hover {
+    background-color: rgb(71, 71, 71);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: 0.3s;
+}
+
+main {
+    margin: auto;
+    margin-top: 100px;
+    width: 70vw;
+    text-align: center;
+    max-width: 800px;
+    padding: 30px;
+    border: 2px solid black;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    background-color: rgba(110, 110, 110, 0.192);
+}
+
+img {
+    width: 50vw;
+    max-width: 350px;
+}
+
+main p{
+    font-size: clamp(13px, 2vw, 40px);
+    margin-top: 30px;
+}
+
+main h1{
+    margin-top: 20px;
+    font-size: clamp(20px, 3.5vw, 40px);
+}

@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url(../images/brainrot.png);
+    background-image: url(../media/img/brainrot.png);
     background-repeat: repeat;
     background-size: 300px;
     background-position: center;
@@ -61,7 +61,7 @@ nav {
     border-bottom-right-radius: 40px;
     background-color: rgba(0, 0, 0, 0.719);
     color: white;
-    width: 81vw;
+    width: 80vw;
     min-width: 530px;
     max-width: 700px;
 }
