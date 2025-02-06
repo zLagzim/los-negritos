@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url(../images/brainrot.png);
+    background-repeat: repeat;
+    background-size: 300px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    width: 80vw;
+    margin: auto;
+    margin-top: 50px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    padding: 10px 0px;
+    border: 4px solid black;
+    border-bottom: 0px;
+    min-width: 530px;
+}
+
+img {
+    width: 21vw;
+    height: auto;
+    border: 10px solid black;
+}
+
+#tamigos {
+    text-align: center;
+    padding: 40px;
+}
+
+.amigos {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+nav {
+    margin: auto;
+    border: 4px solid black;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.719);
+    color: white;
+    width: 80vw;
+    min-width: 530px;
+
+}
+
+nav p {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav .amigos:hover {
+    background-color: rgb(224, 224, 224);
+    color: black;
+    transition: 0.3s;
+}
+
